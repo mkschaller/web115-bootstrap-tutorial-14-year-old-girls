@@ -1,0 +1,71 @@
+$white: #ffffff;
+$grey: #323232;
+$grey-hover: #555555;
+$magenta: #ff00ff;
+$purple: #990099;
+$cyan: #00ffff;
+$teal: #009999;
+$yellow: #ffff00;
+$darkyellow: #999900;
+$whitesmoke: #F5F5F5;
+
+#logo{
+    margin-right: 15px;
+    float: left;
+}
+
+ 
+
+
+
+
+.logo-cyan {
+    box-sizing: border-box;
+  background-color: $teal;
+  color: white;
+  font-size: 2em;
+  font-family: 'Crafty Girls', cursive;
+  height: 2em;
+  width: .5em;
+  border-bottom: .5em solid $cyan;
+  display: inline-block;
+    float: left;
+}
+.blank{
+    width: .5em;
+    height:2em;
+    float: left;
+    box-sizing:border-box;
+    display: inline-block;
+}
+
+.logo-magenta {
+ box-sizing:border-box;
+  background-color: $purple;
+  color: white;
+  font-size: 2em;
+  font-family: 'Crafty Girls', cursive;
+  height: 1.25em;
+  width: .5em;
+  float: left;
+  border-bottom: .5em solid $magenta;
+   display: inline-block;
+
+}
+.logo-yellow {
+  box-sizing:border-box;
+  background-color: $darkyellow;
+  color: white;
+  font-size: 2em;
+  float: left;
+  font-family: 'Crafty Girls', cursive;
+    margin-top: .5em;
+    margin-left: .25em;
+    margin-right: .25em;
+  height: 1em;
+  width: .5em;
+  text-align: center;
+  border-bottom: .5em solid $yellow;
+  display: inline-block;
+  transform:rotate(90deg);
+}

@@ -1,0 +1,203 @@
+@import "https://fonts.googleapis.com/css?family=Crafty+Girls|Poppins:400,700";
+/* line 12, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/_css-logo.scss */
+#logo {
+  margin-right: 15px;
+  float: left; }
+
+/* line 22, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/_css-logo.scss */
+.logo-cyan {
+  box-sizing: border-box;
+  background-color: #009999;
+  color: white;
+  font-size: 2em;
+  font-family: 'Crafty Girls', cursive;
+  height: 2em;
+  width: .5em;
+  border-bottom: 0.5em solid #00ffff;
+  display: inline-block;
+  float: left; }
+
+/* line 34, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/_css-logo.scss */
+.blank {
+  width: .5em;
+  height: 2em;
+  float: left;
+  box-sizing: border-box;
+  display: inline-block; }
+
+/* line 42, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/_css-logo.scss */
+.logo-magenta {
+  box-sizing: border-box;
+  background-color: #990099;
+  color: white;
+  font-size: 2em;
+  font-family: 'Crafty Girls', cursive;
+  height: 1.25em;
+  width: .5em;
+  float: left;
+  border-bottom: 0.5em solid #ff00ff;
+  display: inline-block; }
+
+/* line 55, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/_css-logo.scss */
+.logo-yellow {
+  box-sizing: border-box;
+  background-color: #999900;
+  color: white;
+  font-size: 2em;
+  float: left;
+  font-family: 'Crafty Girls', cursive;
+  margin-top: .5em;
+  margin-left: .25em;
+  margin-right: .25em;
+  height: 1em;
+  width: .5em;
+  text-align: center;
+  border-bottom: 0.5em solid #ffff00;
+  display: inline-block;
+  transform: rotate(90deg); }
+
+/* line 16, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/styles.scss */
+.padding-sm {
+  margin: 0px;
+  padding: 3px;
+  padding-top: 0px; }
+
+/* line 22, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/styles.scss */
+.pager-desktop {
+  margin-top: 0px;
+  padding-top: 0px; }
+
+/* line 27, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/styles.scss */
+.figure-caption {
+  background-color: #F5F5F5;
+  color: #323232; }
+
+/* line 31, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/styles.scss */
+.figure-caption:hover {
+  background-color: #555555;
+  color: #F5F5F5; }
+
+@media screen and (min-width: 768px) {
+  /* line 37, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/styles.scss */
+  .navbar-right {
+    font-size: 16px; } }
+
+/* line 43, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/styles.scss */
+.center {
+  display: block;
+  margin: 0px auto;
+  text-align: center; }
+
+/* line 49, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/styles.scss */
+#tutorial {
+  border-bottom: 2px solid #F5F5F5;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  text-align: center; }
+
+/* line 58, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/styles.scss */
+.pager li {
+  display: inline;
+  font-size: 14px; }
+
+/* line 63, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/styles.scss */
+#myNavbar {
+  background-color: #F5F5F5; }
+
+@media screen and (max-width: 768px) {
+  /* line 68, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/styles.scss */
+  #logo {
+    margin: 0px auto;
+    display: block;
+    align-content: center;
+    align-items: center;
+    padding-left: 15px; } }
+
+/* line 77, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/styles.scss */
+.banner-image {
+  background-image: url(images/14-banner-1.jpg);
+  min-height: 200px;
+  background-size: cover; }
+
+/* line 82, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/styles.scss */
+.constrain {
+  max-width: 1060px;
+  margin: 0px auto; }
+
+/* line 85, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/styles.scss */
+.left {
+  text-align: left; }
+
+/* line 88, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/styles.scss */
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 2;
+  color: #f5f6f7; }
+
+/* line 93, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/styles.scss */
+p {
+  font-size: 18px; }
+
+/* line 94, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/styles.scss */
+.margin {
+  margin-bottom: 30px; }
+
+/* line 95, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/styles.scss */
+.bg-1 {
+  background-color: #009999;
+  color: #ffffff;
+  border-bottom: 50px solid #00ffff; }
+
+/* line 100, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/styles.scss */
+.bg-2 {
+  background-color: #990099;
+  /* Dark Blue */
+  color: #ffffff;
+  border-bottom: 50px solid #ff00ff; }
+
+/* line 105, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/styles.scss */
+.bg-3 {
+  background-color: #999900;
+  /* White */
+  color: #ffffff;
+  border-bottom: 50px solid #ffff00; }
+
+/* line 110, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/styles.scss */
+.bg-4 {
+  background-color: #323232;
+  /* Black Gray */
+  color: #fff; }
+
+/* line 114, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/styles.scss */
+.container-fluid {
+  padding-top: 50px;
+  padding-bottom: 25px; }
+
+/* line 118, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/styles.scss */
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+  height: 125px;
+  background-color: #F5F5F5; }
+
+/* line 129, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/styles.scss */
+.navbar-nav li a:hover {
+  color: #ff00ff !important; }
+
+@media screen and (min-width: 769px) {
+  /* line 134, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/styles.scss */
+  .navbar-brand {
+    font-size: 3em; } }
+
+/* line 140, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/tutorial/styles.scss */
+.navbar-brand {
+  font-family: 'Crafty Girls', cursive;
+  font-size: 2em;
+  margin-left: 5px; }
+
+/*# sourceMappingURL=styles.css.map */

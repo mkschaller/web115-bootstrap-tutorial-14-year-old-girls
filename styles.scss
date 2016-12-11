@@ -1,0 +1,146 @@
+@import "https://fonts.googleapis.com/css?family=Crafty+Girls|Poppins:400,700";
+@import 'css-logo';
+
+
+$white: #ffffff;
+$grey: #323232;
+$grey-hover: #555555;
+$magenta: #ff00ff;
+$purple: #990099;
+$cyan: #00ffff;
+$teal: #009999;
+$yellow: #ffff00;
+$darkyellow: #999900;
+$whitesmoke: #F5F5F5;
+
+.padding-sm{
+    margin: 0px;
+    padding: 3px;
+    padding-top: 0px;
+}
+
+.pager-desktop{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.figure-caption{
+    background-color: $whitesmoke;
+    color: $grey;
+}
+.figure-caption:hover{
+    background-color: $grey-hover;
+    color: $whitesmoke;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-right{
+    font-size: 16px;
+    }
+}
+
+
+.center{
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#tutorial{
+    border-bottom: 2px solid $whitesmoke;
+    padding-bottom: 10px;
+    //font-family: 'Crafty Girls', cursive;
+    letter-spacing: 2px;
+    text-align: center;
+    
+}
+
+.pager li {
+    display: inline;
+    font-size: 14px;
+}
+
+#myNavbar {
+    background-color: $whitesmoke;
+}
+
+@media screen and (max-width: 768px) {
+  #logo {
+    margin: 0px auto;
+    display: block;
+    align-content: center;
+    align-items: center;
+    padding-left: 15px;
+  }
+}
+
+.banner-image{
+    background-image:url(images/14-banner-1.jpg);
+    min-height: 200px;
+    background-size: cover;
+}
+.constrain {
+      max-width: 1060px;
+      margin: 0px auto; }
+.left {
+    text-align: left;
+}
+ body {
+      font-family: 'Poppins', sans-serif;
+      line-height: 2;
+      color: #f5f6f7;
+  }
+  p {font-size: 18px;}
+  .margin {margin-bottom: 30px;}
+  .bg-1 { 
+      background-color: $teal;
+      color: #ffffff;
+      border-bottom: 50px solid $cyan;
+  }
+  .bg-2 { 
+      background-color: $purple; /* Dark Blue */
+      color: #ffffff;
+      border-bottom: 50px solid $magenta;
+  }
+  .bg-3 { 
+      background-color: $darkyellow; /* White */
+      color: $white;
+      border-bottom: 50px solid $yellow;
+  }
+  .bg-4 { 
+      background-color: $grey; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 50px;
+      padding-bottom: 25px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+      height: 125px;
+      background-color: $whitesmoke;
+  }
+  .navbar-nav  li a:hover {
+      color: $magenta !important;
+  }
+
+@media screen and (min-width: 769px) {
+  .navbar-brand {
+    font-size: 3em;
+  }
+    
+}
+
+.navbar-brand{
+    font-family: 'Crafty Girls', cursive;
+    font-size: 2em;
+    margin-left: 5px;
+}
+
+  
